@@ -285,7 +285,7 @@ p {
 
 /**/
 .span-like, .nav .span-like, .formulaire .span-like {
-    color: #d10202;
+    color: #444;
     font-family: monospace;
     font-weight: bolder;
     margin: auto;
