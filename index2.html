@@ -4,29 +4,31 @@
         <meta charset="utf-8">
         <title>Travel Agency.</title>
         <meta name="description" content="Travel Agency.">
-        <link rel="stylesheet" href="style2.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+       <link rel="stylesheet" href="style2.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
-    <body class="body">
-        <div class="page">
-                <div class= "header" id="accueil">
-                    <div class="logo">
-                        <img src="images/Travel_Agency_black.jpg" alt="logo" width="325px" height="50px">
+    <body>
+        
+               <header id="accueil">
+                    <div class="logo"><a href="/">
+                        <img src="images/Travel_Agency_black.jpg" alt="logo" width="325px" height="50px"></a>
                     </div>
                     <div>
                         <nav>
-                            <a href="#accueil"> accueil </a>
-                            <a href="#destinations"> destinations </a>
-                            <a href="#circuits"> circuits </a>
-                            <a href="#contacts"> contact </a>
+                            <ul>
+                                <li><a href="#accueil"> accueil </a></li>
+                                <li><a href="#destinations"> destinations </a></li>
+                                <li><a href="#circuits"> circuits </a></li>
+                                <li><a href="#contacts"> contact </a></li>
+                            </ul>
                         </nav>
                     </div>
-                </div>
-            
-            <div class="visuel">
-                <h1>organisez votre<div class= "span-like">voyage sur mesure</div></h1>
+                </header>           
+            <section class="visuel">
+                <h1>organisez votre<br>
+                    <span class= "span-like">voyage sur mesure</span></h1>
                 <button class="buttonvisuel" type="button">Par ici</button>
-            </div>
+            </section>
             
             <div class="icones" id="destinations">
                 
@@ -47,7 +49,7 @@
                 </section>
 
                 <section class="icone">
-                        <img src="images/steps-icon-3.png" alt="iconeD" style="">
+                        <img src="images/steps-icon-3.png" alt="iconeD">
                             <section>
                                     <h1>voyager</h1>
                                     <p>Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
@@ -87,9 +89,9 @@
                     <section class="formulaire">
                         <form action="/#.php">
                             <p class="span">Nom:
-                            <input type="text" name="Votre nom" value=" Votre nom">
+                            <input type="text" name="Votre nom" value="Votre nom">
                             Email: 
-                            <input type="text" name="Votre email" value=" Votre email">
+                            <input type="text" name="Votre email" value="Votre email">
                             <input class="buttoncontact" type="submit" value="OK">
                             </p>
                         </form>
@@ -107,7 +109,7 @@
 
             </div>
 
-        </div>
+        
 
     </body>
 </html>
