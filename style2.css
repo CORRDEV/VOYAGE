@@ -291,6 +291,10 @@ p {
     margin: auto;
 }
 
+h1 .span-like {
+    font-weight:800;
+    font-size: 30px;
+}
 
 
 @keyframes respiration {
