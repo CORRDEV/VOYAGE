@@ -266,7 +266,7 @@ nav a {
 /*MISE EN FORME TEXTES H1 P SPAN /////////////////////////////////////////////////////////////*/
 h1 {
     color: #444;
-    font-size: 30px;
+    font-size: 40px;
     font-family: monospace;
     font-weight: 100;
     margin: 20px 0 0 0;
@@ -293,7 +293,7 @@ p {
 
 h1 .span-like {
     font-weight:800;
-    font-size: 30px;
+    font-size: 55px;
 }
 
 
