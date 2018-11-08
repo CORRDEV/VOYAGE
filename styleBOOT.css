@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin-ext');
+* {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*MISE EN FORME TEXTES H1 P SPAN /////////////////////////////////////////////////////////////*/
+h1 {
+    color: #444;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+/**/
+
+p {
+    color: #333;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 15px 0 0 
+}
+
+body {
+    border: 1px solid #02b8dd;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+}
+/*PAGE GLOBALE /////////////////////////////////////////////////////////////*/
+
+.container-fluid {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+/*HEADER /////////////////////////////////////////////////////////////*/
+header {
+    display: block;
+    width: inherit;
+    height: 120px; 
+    background-color: white;
+    top: 0;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+/**/
+.logo {
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 30 0 30 0;
+}
+
+
+/**/
+nav{
+     float: right;
+     display: block;
+     margin-top: 5px;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    height: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/**/
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+     line-height: 55px;
+    height: 55px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*VISUEL /////////////////////////////////////////////////////////////*/
+.visuel {
+    background-image: url("images/main.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 440px;
+    padding-top: 120px;
+}
+/**/
+.visuel h1 {
+    margin: 0;
+    font-size: 55px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: #444;
+    font-weight: normal;
+}
+/*BOUTON*/
+.buttonvisuel {
+    background-color: #F77a00;
+    display:block;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/*DESTNATIONS /////////////////////////////////////////////////////////////*/
+.icones {
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+/**/
+.icone {
+    display: inline-block;
+    margin: 60px 15px 40px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icone section p {
+    color: #808080;
+    font-size: 1,5em;
+    margin: 5%;
+} 
+
+.icones .icone:hover img {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    animation: respiration 1.3s alternate infinite;
+}
+
+/*CIRCUITS /////////////////////////////////////////////////////////////*/
+.articles {
+    display: block;
+    float: auto;    
+    justify-content: center;
+    text-align: center;
+    height: 390px;
+    background-color: #efefef;
+}
+
+/**/
+
+.articles .article {
+    display: inline-block;
+    width: 450px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 60px 0 60px 10px;
+   transition: all 0.5s ease-in-out;
+   overflow: hidden;
+}
+
+
+
+/* Don't forget remove :*/
+.articles .article:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.articles .article section {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: 100%;
+
+    background-color: white;
+    opacity: .98;
+  /*  border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;*/
+}
+
+.articles .article.gauche {
+    background-image: url("images/article-image-1.jpg");
+}
+
+.articles .article.droite {
+    background-image: url("images/article-image-2.jpg");
+}
+
+.articles .article p {
+    font-style: italic;
+    padding: 10px;
+    font-size: 14px;
+    color: #A9A9A9;
+    line-height: 22px;
+}
+
+
+
+/* BOUTONS */
+.buttonarticle {
+    background-color: #F77a00;
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+}
+/* BARRES GRISES */
+.articles .barre{
+    height: 0px;
+    width: 80%;
+    background-color: #DCDCDC;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
+    border: 0.25px #DCDCDC solid;
+}
+
+
+/*CONTACT /////////////////////////////////////////////////////////////*/
+.contact {
+    height: 390px;
+    max-height: 390px;
+    text-align: center;
+    margin: 0 200px 0 200px;
+}
+/* BARRE BLEUE */
+.contact .barre{
+    height: 0px;
+    width: 410px;
+    text-align: center;
+    margin: 20px auto 18px auto;
+    border-top: 0.25px solid #02b8dd; 
+}
+/**/
+.contact input {
+    margin: 20px;
+    border: 1px solid #444;
+    border-radius: 2%;
+    text-align: justify;
+    font-size: 18px;
+    
+    color: #9e9e9e;
+}
+
+.contact h1{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.contact p{
+    font-size: 15px;
+    color: #696969;
+}
+/**/
+.formulaire p {
+    margin: 10px;
+    font-size: 20px;
+   
+    font-weight: bold;
+}
+/**/
+.formulaire .buttoncontact {
+    background-color: #02b8dd;
+    border: none;
+    margin: 8px;
+    color: white;
+    height: 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0 10px 0 10px;
+}
+
+.formulaire input{
+    height: 40px;
+    border: 2px solid #A9A9A9;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+}
+
+
+/*FOOTER /////////////////////////////////////////////////////////////*/
+.footer {
+    display: block;
+    width: inherit;
+    background-color: #444;
+    height: 260px;
+    min-height: 260px;
+    text-align: center;
+    color: #ffffff;
+}
+/**/
+.footer img {
+    padding: 80px 0 20px 0;
+}
+/**/
+.footer p {
+    color: #9e9e9e;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+/**/
+.span-like, .nav .span-like, .formulaire .span-like {
+    color: #444;
+   
+    font-weight: bold;
+    
+}
+
+
+
+@keyframes respiration {
+    from {
+        top: 0;
+    }
+    
+    to {
+        top: -10px;
+    }
+}
